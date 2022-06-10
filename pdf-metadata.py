@@ -27,6 +27,11 @@ Out = filepath + directory
 
 meta = "meta.ini"  # All metadata values should update in the INI file.
 
+if os.path.exists(meta): # check the password.ini file present
+    pass
+else:
+    print("\n meta.ini file is missing")
+
 if os.path.exists(Out):
     pass
 else:
