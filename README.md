@@ -24,6 +24,7 @@ Metadata values should provide in the "meta.ini" file, tool will read this ini f
 * Tool execute the pdf files and create the output split pdf in the "Output" folder of the same input file  path
 
 ##Help
+
 * Enter the Metadata values in the meta.ini file
 * Values should enter the within the respective tags, example: <Subject>... Subject Content ...</Subject>.
 * If any field not required leave this field as empty tag, example: <Subject></Subject>.
