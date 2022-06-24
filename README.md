@@ -4,8 +4,8 @@ PDF Metadata Application
 
 ## Description
 
-Metadata Fields:  Title, Author, Subject, Keywords, PDF Producer, CreatorTool, PDF Version, Fastweb view
-Metadata values should provide in the "meta.ini" file, tool will read this ini file and apply the values in the PDF file.
+* Metadata Fields:  Title, Author, Subject, Keywords, PDF Producer, CreatorTool, PDF Version, Fastweb view.
+* Metadata values should provide in the "meta.ini" file, tool will read this ini file and apply the values in the PDF file.
 
 ## Getting Started
 
@@ -19,7 +19,8 @@ Metadata values should provide in the "meta.ini" file, tool will read this ini f
 
 ### Executing program
 
-* Run the program
+* meta.ini file should copied in the tool path
+* Run the program 
 * Tool will ask to enter the path of the input pdf file
 * Tool execute the pdf files and create the output split pdf in the "Output" folder of the same input file  path
 
