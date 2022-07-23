@@ -26,7 +26,7 @@ PDF Metadata Application
 
 ### Help
 
-* Enter the Metadata values in the meta.ini file
+* Enter the Metadata values in the meta.ini file.
 * Values should enter the within the respective tags, example: ```<Subject>... Subject Content ...</Subject>```.
 * If any field not required leave this field as empty tag, example: ```<Subject></Subject>```.
 * If any special character present in the meta.ini, then file format should be in "UTF-8"
