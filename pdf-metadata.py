@@ -9,8 +9,10 @@ print("\n Developed by A Rajasekaran\n")
 print("\n Date: 01 June 2022 \n\n")
 
 '''
+- pikepdf library used
 - Metadata Information should capture in the "meta.ini" file, within the respective tags
 - meta.ini file should be in UTF-8 format
+- meta.ini files should be place in the same location of pdf file
 - Tool will get the value from meta ini file and update in the PDF output
 - Metadata fields: Title, Author, Subject, Keywords, PDF Producer, CreatorTool, PDF Version
 '''
@@ -83,6 +85,7 @@ for fname in os.listdir(filepath):
 			meta["xmp:ModifyDate"] = datetime.now(datetime.utcnow().astimezone().tzinfo).isoformat()
 		pdf.save(final, linearize=True, force_version=version)	 #	force_version for assigning the PDF version & linearize for assigning the Fastweb view
 		pdf.close()
-		
+print("*** Completed ***")
+
 
 
