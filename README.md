@@ -19,7 +19,7 @@ PDF Metadata Application
 
 ### Executing program
 
-* meta.ini file should copied in the tool path
+* meta.ini file should be copied in the PDF file path
 * Run the program 
 * Tool will ask to enter the path of the input pdf file
 * Tool execute the pdf files and create the output split pdf in the "Output" folder of the same input file  path
