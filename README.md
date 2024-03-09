@@ -1,4 +1,4 @@
-# Project Title
+# Application Title
 
 PDF Metadata Application
 
